@@ -19,9 +19,8 @@ public class CanalPagoDTO implements Serializable{
 		this.nombre = canal.getNombre();
 	}
 	
-	public CanalPagoDTO(Long id, String nombre) {
+	public CanalPagoDTO(String nombre) {
 		super();
-		this.id = id;
 		this.nombre = nombre;
 	}
 

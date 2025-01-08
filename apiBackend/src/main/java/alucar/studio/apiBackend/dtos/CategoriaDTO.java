@@ -24,9 +24,8 @@ public class CategoriaDTO implements Serializable{
 		// TODO Auto-generated constructor stub
 	}
 
-	public CategoriaDTO(Long id, String nombre) {
+	public CategoriaDTO(String nombre) {
 		super();
-		this.id = id;
 		this.nombre = nombre;
 	}
 

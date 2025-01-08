@@ -30,9 +30,8 @@ public class ComentariosDTO implements Serializable{
 		// TODO Auto-generated constructor stub
 	}
 
-	public ComentariosDTO(Long id, String comentario, Long idEmprendimiento, String usuario, int puntuacion) {
+	public ComentariosDTO(String comentario, Long idEmprendimiento, String usuario, int puntuacion) {
 		super();
-		this.id = id;
 		this.comentario = comentario;
 		this.idEmprendimiento = idEmprendimiento;
 		this.usuario = usuario;

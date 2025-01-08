@@ -25,9 +25,8 @@ public class EmprendedorDTO implements Serializable{
 		this.numeroUni = emp.getNumeroUni();
 	}
 	
-	public EmprendedorDTO(Long id, String nombre, String numeroIdentificacion, String correo, String numeroUni) {
+	public EmprendedorDTO(String nombre, String numeroIdentificacion, String correo, String numeroUni) {
 		super();
-		this.id = id;
 		this.nombre = nombre;
 		this.numeroIdentificacion = numeroIdentificacion;
 		this.correo = correo;

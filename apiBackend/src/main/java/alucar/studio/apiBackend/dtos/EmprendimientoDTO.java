@@ -35,10 +35,9 @@ public class EmprendimientoDTO implements Serializable{
 		super();
 	}
 
-	public EmprendimientoDTO(Long id, String nombre, String descripcion, Boolean creditoFiscal, Long idEmprendedor,
+	public EmprendimientoDTO(String nombre, String descripcion, Boolean creditoFiscal, Long idEmprendedor,
 			List<CategoriaDTO> categorias, List<CanalPagoDTO> canalPagos) {
 		super();
-		this.id = id;
 		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.creditoFiscal = creditoFiscal;
